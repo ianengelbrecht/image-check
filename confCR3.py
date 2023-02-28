@@ -1,4 +1,4 @@
-#temp script to confirm all cr3 files from PRU are converted to DNG
+#script to confirm all cr3 files from PRU are converted to DNG
 import os
 
 source_path = r'F:\Herbarium imaging\temp\2023'
