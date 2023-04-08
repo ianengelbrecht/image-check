@@ -1,8 +1,8 @@
 #script to confirm all cr3 files from PRU are converted to DNG
 import os
 
-source_path = r'F:\Herbarium imaging\temp\2023'
-dest_path = r'F:\Herbarium imaging\PRU\QuickGuide\RAW'
+source_path = r'H:\Herbarium imaging\temp\2023'
+dest_path = r'F:\Herbarium imaging\final\PRU\QuickGuide\RAW'
 
 source_dirs = os.listdir(source_path)
 dest_files = list(map(lambda x: os.path.splitext(x)[0], os.listdir(dest_path)))
